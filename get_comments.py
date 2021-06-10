@@ -36,7 +36,7 @@ def get_comments(type, value=False):
         print(error)
         # Log
         return False
-        # sys.exit("Error:Failed getting new channels from database")
+        # sys.exit("Error:Failed getting comments from database")
     data = cursor.fetchall()
     cursor.close()
     return data
